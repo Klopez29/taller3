@@ -1,0 +1,28 @@
+miCallback([
+    {
+        
+        "titulo":"Saw",
+        "clasificacion": "+18",
+        "butacas" : "Diamond Vo5",
+        "horarios": "8:00 AM a 3:40 PM",
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jigsaw-fotogramas-1621616388.jpg?crop=0.585xw:0.880xh;0.224xw,0.120xh&resize=640:*"
+    },
+    {
+        "titulo":"Venom",
+        "clasificacion": "+18",
+        "butacas" : "Diamond Vo5",
+        "horarios": "10:00 AM a 4:00 PM",
+        "img":"https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_FMjpg_UX1000_.jpg"    },
+    {
+        "titulo":"HOST",
+        "clasificacion": "+18",
+        "butacas" : "Diamond Vo5",
+        "horarios": "12:00 PM a 8:00 PM",
+        "img":"https://es.web.img3.acsta.net/pictures/20/11/26/09/31/1607066.jpg"   },
+        {
+            "titulo":"Violet Evergarden",
+            "clasificacion": "+13",
+            "butacas" : "Diamond Vo5",
+            "horarios": "10:00 AM a 5:00 PM",
+            "img":"https://static.cinepolis.com/resources/mx/movies/posters/414x603/36071-783901-20210321100358.jpg"   }
+]);

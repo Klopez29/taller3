@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="css/estilo.css" rel="stylesheet">
+
+</head>
+<body>
+            
+    <section id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">CINE BOSCO</span></h1>
+                        <div class="pricing-list">
+                            
+                            <!---->
+                            <form action="javascript:void(0);" class="demoForm" id="formulario">
+                                <div class="title">
+                                    <h3>ENTRADAS DISPONIBLES</span></h3>
+                                </div>
+                                <fieldset>
+                                    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Ingrese la cantidad de entradas: </p>
+                                    <input type="number" class="form-control py-3" id="cantidad" placeholder="Cantidad" value="1">
+                          
+                                    <ul>
+                                
+                            <br><br>
+                            <div class="title">
+                                <h3>Productos a <span>agregar</span></h3>
+                            </div>
+                                <p id="pelis_toppings"><label></label>
+                                    
+                            
+                                <label><input type="checkbox" id="producto" value="1.50" />Palomitas Grandes</label><br>
+                                <label><input type="checkbox" id="producto"  value="1.25" />Palomitas Medianas</label><br>
+                                <label><input type="checkbox" id="producto" value="1.00" />Palomitas pequeñas</label><br>
+                                <label><input type="checkbox" id="producto" value="1.50" />Bebida Grande</label><br>
+                                <label><input type="checkbox" id="producto" value="1.25" />Bebida Mediana</label><br>
+                                <label><input type="checkbox" id="producto" value="1.00" />Bebida Pequeña</label><br>
+                                <input type="hidden" name="tops_tot" value="0.00" />
+                                </p>
+                                <p>
+                                <label>
+                                Total: $<input type="text" name="total" class="num" value="0.00"
+                                readonly="readonly" />
+                                </label>
+                                </p>
+                                <p>
+                                
+                                    <input type="button" onclick="recibo();" class="btn btn-default pull-right wow bounceIn" id="guardar" role="button" value="ENVIAR"  />
+                                
+                                </p>
+                                </fieldset>
+                                </form>
+                        
+                            <!---->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <script src="js/recibo.js"></script>
+</body>
+</html>
